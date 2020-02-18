@@ -1,0 +1,503 @@
+/* Universal Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    Font-Family: 'Libre Franklin', Serif, Sans-Serif;
+    font-size: 100%;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    margin: 0 10%;
+}
+
+h1 {
+    font-family: 'Cardo';
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding-top: 4%;
+    text-align: center;
+    font-family: 'Cardo';
+}
+
+#about p,
+.accommodation p,
+#contact p {
+    max-width: 1100px;
+    margin: 0 auto;
+    ;
+    padding: 3% 10% 4% 10%;
+    line-height: 30px;
+    text-align: center;
+}
+
+span {
+    font-family: 'Cardo';
+}
+
+/* Header styling */
+
+#header-hero {
+    background-image: url(../Images/hero.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+/* Nav Items */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex: 1 2 20vw;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.nav-1 {
+    justify-content: flex-end;
+}
+
+.heading {
+    font-size: 6.25rem;
+    letter-spacing: 5px;
+    flex: 0 1 40vw;
+}
+
+/*About Section*/
+
+#about {
+    background-color: #2D2D2A;
+    color: white;
+}
+
+/*Experiences Section*/
+
+#experiences {
+    color: #2D2D2A;
+}
+
+.flowers,
+.dancing {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flowerlady {
+    width: 55%;
+    margin-top: 8%;
+    box-shadow: 5px 5px 15px #919191;
+}
+
+.flowers p,
+.dancing p {
+    text-align: right;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-left: 15%;
+}
+
+.candles {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.candleladys {
+    width: 55%;
+    margin-top: 6%;
+    box-shadow: -5px -5px 15px #919191;
+
+}
+
+.candles p {
+    text-align: left;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-right: 15%;
+}
+
+.festival {
+    width: 55%;
+    margin-top: 6%;
+    box-shadow: 5px -5px 15px #919191;
+}
+
+/* Experience the beaty of Nepal hero section, just before accommodation */
+
+#beauty-hero {
+    background-image: url(../Images/accom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    margin-top: 4%;
+    text-align: right;
+}
+
+.beauty {
+    font-size: 3.6rem;
+    max-width: 600px;
+    display: inline-block;
+    margin-right: 20%;
+    margin-top: 19%;
+}
+
+.experience,
+.of-nepal {
+    font-size: 2rem;
+    display: block;
+}
+
+.experience {
+    text-align: left;
+}
+
+/* Accommodation section */
+
+.accommodation {
+    background-color: #2D2D2A;
+    color: white;
+    text-align: center;
+}
+
+.booking,
+.trip {
+    width: 200px;
+    background: white;
+    border-radius: 100px;
+    max-width: 1100px;
+    margin-bottom: 4%;
+}
+
+.booking {
+    padding: 14px;
+    margin-right: 10%;
+}
+
+.trip {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.booking:hover {
+    background: #E6E6E6;
+}
+
+.trip:hover {
+    background: #E6E6E6;
+}
+
+/* Contact section */
+
+form {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 2px solid #2D2D2A;
+    padding-left: 20px;
+}
+
+/* The mid section which is the Subject input and the textarea which is the Message area */
+.subject,
+textarea {
+    display: block;
+    margin-top: 50px;
+    width: 1060px;
+}
+
+/* This includes Name, Email, and Phone. These are the top inputs of the form */
+.top {
+    width: 310px;
+}
+
+/* This includes Phone and Email as they need to move to the left slighlty */
+.email,
+.phone {
+    margin-left: 40px;
+}
+
+button {
+    border: 2px solid #2D2D2A;
+    background-color: white;
+    color: #2D2D2A;
+    padding: 10px 20px;
+    display: block;
+    margin: 2rem auto 4%;
+}
+
+button:hover {
+    color: white;
+    background: #2D2D2A;
+    cursor: pointer;
+}
+
+
+/* Footer section */
+
+footer {
+    background-color: #2D2D2A;
+    color: white;
+    height: 100px;
+}
+
+.footer {
+    max-width: 1100px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.designed-by,
+.footer-heading,
+.behance {
+    display: inline-block;
+}
+
+.footer h1 {
+    font-size: 3rem;
+    padding-right: 6rem;
+}
+
+/* Responsive Design @ 1340px */
+
+@media only screen and (max-width: 1340px) {
+    .heading {
+        font-size: 4.25rem;
+    }
+
+}
+
+/* Responsive Design @ 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+    /* Heading Section */
+    .heading {
+        font-size: 4rem;
+    }
+
+    /* Experiences Section*/
+    .flowerlady {
+        width: 41%;
+        margin-left: 10%;
+    }
+
+    .flowers p,
+    .dancing p {
+        padding-left: 10%;
+        margin-right: 10%
+    }
+
+    .candleladys {
+        width: 41%;
+        margin-right: 10%;
+    }
+
+    .candles p {
+        padding-right: 10%;
+        padding-top: 60px;
+        margin-left: 10%;
+    }
+
+    .festival {
+        width: 41%;
+        margin-left: 10%;
+    }
+
+
+    /* Accomodation Hero Section*/
+    .beauty {
+        font-size: 3rem;
+        max-width: 600px;
+        display: inline-block;
+        margin-right: 18%;
+        margin-top: 19%;
+    }
+
+
+    /* Contact Form */
+    form {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .subject,
+    textarea {
+        display: block;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .name {
+        width: 100%;
+    }
+
+    .email {
+        margin-left: 0;
+    }
+
+    .phone,
+    .email {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+
+    /* Footer*/
+    .designed-by,
+    h1,
+    .behance {
+        display: inline-block;
+    }
+
+    .designed-by {
+        margin-left: 10%;
+    }
+
+    .behance {
+        margin-right: 10%;
+    }
+
+    .footer-heading {
+        visibility: hidden;
+    }
+}
+
+/* Responsive Design below 1024px */
+
+@media only screen and (max-width: 1024px) {
+
+    .heading {
+        display: block;
+        position: absolute;
+        top: 1%;
+        right: 30%;
+        font-size: 6rem;
+    }
+
+    .menu {
+        font-size: 1.5rem;
+        margin-top: 15%;
+    }
+
+    .nav-2 {
+        margin-right: 8%;
+    }
+
+    #about p,
+    .accommodation p,
+    #contact p {
+        font-size: 0.7rem;
+        line-height: 40px;
+    }
+
+    .flowerlady {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 5%;
+    }
+
+    .flowers,
+    .dancing {
+        display: block;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .flowers p,
+    .dancing p,
+    .festival p {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .candleladys {
+        display: none;
+    }
+
+    .candles {
+        display: none;
+    }
+
+    .festival {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #beauty-hero {
+        text-align: center;
+    }
+    
+    .beauty {
+        font-size: 5rem;
+        max-width: 600px;
+        display: inline-block;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    
+    .experience {
+        font-size: 3rem;
+    }
+    
+    .of-nepal {
+        text-align: right;
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #about p,
+    .accommodation p,
+    #contact p {
+        font-size: 0.7rem;
+        line-height: 50px;
+    }
+    
+    .booking, .trip {
+        border-radius: 5px;
+        margin-right: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    h2 {
+        font-size: 5rem;
+    }
+
+}
